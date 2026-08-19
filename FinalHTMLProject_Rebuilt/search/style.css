@@ -1,0 +1,130 @@
+/* 1. الخلفية العامة للموقع */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* 2. الكرت الأبيض والكونتينر الرئيسي */
+.main1 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card1 {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card1 h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 18px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+/* 3. الهيدر والعنوان */
+.header-box {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+}
+
+.main-title {
+  margin: 0 0 12px 0;
+  color: #2c3e50;
+  font-size: 22px;
+}
+
+/* زر الصفحة الرئيسية */
+.header-box a {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: #f8f9fa;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.header-box a:hover {
+  background-color: #707271;
+}
+
+/* 4. نموذج البحث (الإنبوت والزر) */
+.card1 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+.card1 input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* زر البحث الأخضر */
+.card1 button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card1 button:hover {
+  background-color: #707271;
+}
+
+/* 5. قائمة نتائج البحث */
+.card1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card1 li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card1 li:last-child {
+  border-bottom: none;
+}
+
+.card1 li a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card1 li a:hover {
+  text-decoration: underline;
+}
+
+/* 6. الفوتر */
+.footer {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 12px;
+  color: #888888;
+}

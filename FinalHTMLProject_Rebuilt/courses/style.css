@@ -1,0 +1,123 @@
+/* 1. الخلفية العامة للموقع */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* 2. الكرت الأبيض والكونتينر الرئيسي */
+.main1 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card1 {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card1 h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 18px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+/* 3. الهيدر والعنوان */
+.header-box {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+}
+
+.main-title {
+  margin: 0 0 12px 0;
+  color: #2c3e50;
+  font-size: 22px;
+}
+
+/* زر الصفحة الرئيسية */
+.header-box a {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: #f8f9fa;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.header-box a:hover {
+  background-color: #707271;
+}
+
+/* 4. القوائم والجدول والفيديو */
+.card1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card1 li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #444;
+}
+
+.card1 li:last-child {
+  border-bottom: none;
+}
+
+.card1 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.card1 th,
+.card1 td {
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+}
+
+.card1 th {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.card1 td a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card1 td a:hover {
+  text-decoration: underline;
+}
+
+.card1 video {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* 5. الفوتر */
+.footer {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 12px;
+  color: #888888;
+}

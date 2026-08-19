@@ -1,0 +1,113 @@
+<!-- صفحة الاشتراك -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>اشترك الآن</title>
+</head>
+<body>
+
+  <!-- Box-Al-Safha: المربع الأبيض الكبير في وسط الشاشة -->
+  <div class="Box-Al-Safha">
+
+    <!-- Section-Al-Header: الجزء العلوي الخاص بالعنوان والرابط -->
+    <header class="Section-Al-Header">
+      <h1>اشترك في المنصة</h1>
+      <nav>
+        <a href="../index/index.html" class="Rabit-Al-Raisi">الصفحة الرئيسية</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <form>
+
+          <!-- Murabba-Satar: المربع الخاص بكل سطر (عنوان + خانة كتابة) -->
+          <div class="Murabba-Satar">
+            <label for="name">الاسم الكامل</label>
+            <input type="text" id="name" placeholder="مثال: هشام الدخيل  ">
+          </div>
+
+          <div class="Murabba-Satar">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" placeholder="Hisham@gmail.com">
+          </div>
+
+          <div class="Murabba-Satar">
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password">
+          </div>
+
+          <div class="Murabba-Satar">
+            <label for="confirm-password">تأكيد كلمة المرور</label>
+            <input type="password" id="confirm-password">
+          </div>
+          
+
+
+    <!-- --- بداية قسم الدفع --- -->
+          <div class="Murabba-Satar">
+            <label class="payment-title">اختر طريقة الدفع:</label>
+            
+            <!-- خيارات الدفع (أزرار اختيار) -->
+            <div class="payment-options">
+              <label class="radio-label">
+                <input type="radio" name="payment_method" value="mada" checked> 
+                مدى
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="payment_method" value="credit_card"> 
+                فيزا / ماستركارد
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="payment_method" value="apple_pay"> 
+                Apple Pay
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="payment_method" value="google_pay"> 
+                Google Pay
+              </label>
+            </div>
+          </div>
+
+          <!-- تفاصيل البطاقة -->
+          <div class="Murabba-Satar">
+            <label for="card-name">الاسم على البطاقة</label>
+            <input type="text" id="card-name" placeholder="مثال: هشام الدخيل">
+          </div>
+
+          <div class="Murabba-Satar">
+            <label for="card-number">رقم البطاقة</label>
+            <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+          </div>
+
+          <!-- قسم مقسوم نصفين لتاريخ الانتهاء ورمز الأمان -->
+          <div class="split-row">
+            <div class="Murabba-Satar half-width">
+              <label for="expiry-date">تاريخ الانتهاء</label>
+              <input type="text" id="expiry-date" placeholder="MM/YY">
+            </div>
+            
+            <div class="Murabba-Satar half-width">
+              <label for="cvv">رمز الأمان (CVV)</label>
+              <input type="text" id="cvv" placeholder="123">
+            </div>
+          </div>
+          <!-- --- نهاية قسم الدفع --- -->
+
+                 <!-- Zr-Ishtrak: زر الإرسال الأخضر -->
+          <button type="submit" class="Zr-Ishtrak">اشترك الآن</button>
+
+      
+    <!-- Section-Al-Footer: التذييل السفلي في آخر الكرت -->
+    <footer class="Section-Al-Footer">
+      <p>© 2026 الاشتراك في المنصة</p>
+    </footer>
+        </main>
+      </section>
+    </form>
+  </div>
+
+</body>
+</html>
