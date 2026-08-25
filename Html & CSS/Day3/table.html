@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الجداول</title>
+    
+</head>
+<body>
+        <h1>جدول درجات طلاب</h1>
+       <br>
+       <br>
+       <table border="1">
+        <tr>
+            <th> Name</th>
+            <th>Age</th>
+            <th colspan="3">grade</th>
+        
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>20</td>
+            <td>90</td>
+            <td>88</td>
+            <td>87</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">Ali</td>
+            <td rowspan="2">19</td>
+            <td>95</td>
+            <td>90</td>
+            <td>92</td>
+
+        </tr>
+<tr>
+        
+            <td>80</td>
+            <td>90</td>
+            <td>87</td>
+
+        </tr>
+<tr>
+            <td rowspan="2">Khaled</td>
+            <td rowspan="2">21</td>
+            <td>98</td>
+            <td>83</td>
+            <td>80</td>
+
+        </tr>
+<tr>
+           
+           
+            <td>92</td>
+            <td>88</td>
+            <td>93</td>
+
+        </tr>
+
+
+       </table>
+
+
+
+
+
+<br>
+<br>
+
+
+
+   <form>
+<label >الأسم :</label><br>
+<input type="text" name="name"><br>
+
+
+<label >البريد الالكتروني : </label><br>
+<input type="email" name="email"><br>
+
+<label>رسالة:</label><br>
+<input type="text" name="message"><br><br>
+
+
+
+    
+
+
+
+<label>الجنس:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">ذكر</label><br>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">أنثى</label>
+        <br><br>
+<br>
+ <label>الدولة:</label>
+        <select name="department">
+            <option value="">-- اختر الدولة --</option>
+            <option value="IT"> السعودية</option>
+            <option value="CS">عمان</option>
+            <option value="IS">الامارات</option>
+            <option value="SE">قطر</option>
+            <option value="SE">الكويت</option>
+            <option value="SE">البحرين</option>
+            <option value="SE">مصر</option>
+            <option value="SE">العراق</option>
+            <option value="SE">سوريا</option>
+        </select>
+<br>
+<br>
+
+        <label>الهوايات:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">السباحة</label><br>
+
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">الجري</label><br>
+        
+        <input type="checkbox" id="travel" name="hobbies" value="Travel">
+        <label for="travel">القراءة</label>
+        <br>
+        
+        <input type="checkbox" id="travel" name="hobbies" value="Travel">
+        <label for="travel">التصوير الفوتوغرافي</label>
+        <br>
+
+        <input type="checkbox" id="travel" name="hobbies" value="Travel">
+        <label for="travel">الرياضة بشكل عام</label>
+        <br>
+
+        <input type="checkbox" id="travel" name="hobbies" value="Travel">
+        <label for="travel">السفر</label>
+        <br><br>
+        <br>
+        <button type="submit" >ارسال</button>
+ </form>
+
+     </body>
+</html>
+ <!-- 2. أنشئ نموذج يحتوي على:
+   - الاسم، البريد الإلكتروني، رسالة
+   - حقل اختيار الجنس (ذكر/أنثى)
+   - حقل اختيار الدولة من قائمة منسدلة
+   - مربع اختيار للهوايات
+   - زر إرسال
+   -->
