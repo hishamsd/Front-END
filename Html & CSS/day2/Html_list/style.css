@@ -1,0 +1,24 @@
+
+h2{
+    color: blue;
+}
+
+ol{
+    list-style-position: inside;
+  
+    color: blueviolet;
+}
+ul{
+    
+    list-style-position: inside;
+ color: rgba(90, 241, 3, 0.993);
+}
+dl{
+    color: brown;
+}
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 70px;
+}
